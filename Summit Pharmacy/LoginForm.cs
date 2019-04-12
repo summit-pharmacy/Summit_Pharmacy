@@ -16,5 +16,10 @@ namespace Summit_Pharmacy
         {
             InitializeComponent();
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

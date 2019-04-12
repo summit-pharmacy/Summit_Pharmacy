@@ -1,1 +1,10 @@
 c:\users\cana18096001\documents\visual studio 2013\Projects\Summit Pharmacy\Summit Pharmacy\bin\Debug\Summit Pharmacy.exe.config
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\bin\Debug\Summit Pharmacy.exe.config
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\bin\Debug\Summit Pharmacy.exe
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\bin\Debug\Summit Pharmacy.pdb
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\obj\Debug\Summit Pharmacy.csprojResolveAssemblyReference.cache
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\obj\Debug\Summit_Pharmacy.LoginForm.resources
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\obj\Debug\Summit_Pharmacy.Properties.Resources.resources
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\obj\Debug\Summit Pharmacy.csproj.GenerateResource.Cache
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\obj\Debug\Summit Pharmacy.exe
+C:\Users\CANA18096001\Documents\Visual Studio 2013\Projects\Summit_Pharmacy\Summit Pharmacy\obj\Debug\Summit Pharmacy.pdb

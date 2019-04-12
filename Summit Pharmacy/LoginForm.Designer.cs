@@ -52,9 +52,9 @@
             this.textBox_Username.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_Username.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Username.ForeColor = System.Drawing.Color.Black;
-            this.textBox_Username.Location = new System.Drawing.Point(91, 175);
+            this.textBox_Username.Location = new System.Drawing.Point(99, 179);
             this.textBox_Username.Name = "textBox_Username";
-            this.textBox_Username.Size = new System.Drawing.Size(176, 18);
+            this.textBox_Username.Size = new System.Drawing.Size(168, 18);
             this.textBox_Username.TabIndex = 0;
             // 
             // textBox_Password
@@ -63,9 +63,10 @@
             this.textBox_Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_Password.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Password.ForeColor = System.Drawing.Color.Black;
-            this.textBox_Password.Location = new System.Drawing.Point(91, 208);
+            this.textBox_Password.Location = new System.Drawing.Point(99, 212);
             this.textBox_Password.Name = "textBox_Password";
-            this.textBox_Password.Size = new System.Drawing.Size(176, 18);
+            this.textBox_Password.PasswordChar = '*';
+            this.textBox_Password.Size = new System.Drawing.Size(168, 18);
             this.textBox_Password.TabIndex = 1;
             // 
             // button_Login
@@ -75,9 +76,9 @@
             this.button_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Login.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Login.ForeColor = System.Drawing.Color.White;
-            this.button_Login.Location = new System.Drawing.Point(91, 249);
+            this.button_Login.Location = new System.Drawing.Point(99, 253);
             this.button_Login.Name = "button_Login";
-            this.button_Login.Size = new System.Drawing.Size(176, 31);
+            this.button_Login.Size = new System.Drawing.Size(168, 31);
             this.button_Login.TabIndex = 2;
             this.button_Login.Text = "Login";
             this.button_Login.UseVisualStyleBackColor = false;
@@ -85,22 +86,22 @@
             // label_Username
             // 
             this.label_Username.AutoSize = true;
-            this.label_Username.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Username.ForeColor = System.Drawing.Color.Black;
-            this.label_Username.Location = new System.Drawing.Point(22, 180);
+            this.label_Username.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(134)))), ((int)(((byte)(82)))));
+            this.label_Username.Location = new System.Drawing.Point(15, 181);
             this.label_Username.Name = "label_Username";
-            this.label_Username.Size = new System.Drawing.Size(63, 17);
+            this.label_Username.Size = new System.Drawing.Size(72, 16);
             this.label_Username.TabIndex = 3;
             this.label_Username.Text = "Username";
             // 
             // label_Password
             // 
             this.label_Password.AutoSize = true;
-            this.label_Password.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Password.ForeColor = System.Drawing.Color.Black;
-            this.label_Password.Location = new System.Drawing.Point(22, 213);
+            this.label_Password.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(134)))), ((int)(((byte)(82)))));
+            this.label_Password.Location = new System.Drawing.Point(15, 214);
             this.label_Password.Name = "label_Password";
-            this.label_Password.Size = new System.Drawing.Size(57, 17);
+            this.label_Password.Size = new System.Drawing.Size(72, 16);
             this.label_Password.TabIndex = 4;
             this.label_Password.Text = "Password";
             // 
@@ -167,17 +168,17 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(134)))), ((int)(((byte)(82)))));
-            this.panel3.Location = new System.Drawing.Point(91, 196);
+            this.panel3.Location = new System.Drawing.Point(99, 200);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(176, 1);
+            this.panel3.Size = new System.Drawing.Size(168, 1);
             this.panel3.TabIndex = 8;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(134)))), ((int)(((byte)(82)))));
-            this.panel4.Location = new System.Drawing.Point(91, 229);
+            this.panel4.Location = new System.Drawing.Point(99, 233);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(176, 1);
+            this.panel4.Size = new System.Drawing.Size(168, 1);
             this.panel4.TabIndex = 9;
             // 
             // LoginForm
@@ -185,7 +186,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(214)))), ((int)(((byte)(209)))));
-            this.ClientSize = new System.Drawing.Size(284, 316);
+            this.ClientSize = new System.Drawing.Size(284, 310);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pictureBox1);

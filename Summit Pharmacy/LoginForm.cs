@@ -21,5 +21,10 @@ namespace Summit_Pharmacy
         {
 
         }
+
+        private void textBox_Password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

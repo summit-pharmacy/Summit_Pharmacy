@@ -96,6 +96,9 @@
   <ItemGroup>
     <None Include="Resources\img_summit_pharmacy_green.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_summit_pharmacy.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

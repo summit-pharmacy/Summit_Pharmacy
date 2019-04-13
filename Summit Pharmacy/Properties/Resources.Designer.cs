@@ -103,6 +103,16 @@ namespace Summit_Pharmacy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_summit_pharmacy {
+            get {
+                object obj = ResourceManager.GetObject("img_summit_pharmacy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_summit_pharmacy_blue {
             get {
                 object obj = ResourceManager.GetObject("img_summit_pharmacy_blue", resourceCulture);
